@@ -199,15 +199,15 @@ function App() {
             />
           </div>
           <div>
-            <h3 className="text-[#D4AF37] font-serif text-3xl mb-6">Sobre Stella</h3>
+            <h3 className="text-[#D4AF37] font-serif text-3xl mb-6"> ✨Sobre Stella</h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Con más de 20 años de experiencia en el arte del cabello, Stella Maris Morales ha desarrollado 
-              un estilo único que combina técnicas clásicas con tendencias contemporáneas. Su visión artística 
-              y dedicación al detalle la han convertido en una referente en el mundo de la peluquería de autor.
+          
+Reconocida estilista de Mendoza, no es simplemente una peluquera, sino una artista del cabello con más de 20 años de trayectoria profesional. A lo largo de su carrera, ha desarrollado un estilo único que fusiona la elegancia de las técnicas tradicionales con una mirada contemporánea y de autor.</p>
+            <p className="text-gray-300 leading-relaxed">
+            Su nombre se ha convertido en sinónimo de distinción y profesionalismo en el mundo de la belleza. Ha trabajado junto a reconocidas celebridades, figuras del ámbito artístico y personalidades influyentes del país, aportando su talento en producciones de moda, eventos de alto nivel y pasarelas nacionales. Entre sus experiencias más destacadas, se encuentra su participación como estilista oficial de las Reinas de la Vendimia, uno de los eventos más emblemáticos de la cultura mendocina y argentina.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              En nuestro salón, cada cliente recibe un trato personalizado y una experiencia premium que 
-              transforma no solo su imagen, sino también su confianza.
+            En su salón, Stella ofrece un servicio verdaderamente personalizado, en un entorno que prioriza la excelencia, el detalle y el cuidado por la imagen y la identidad de cada cliente. Más que una sesión de belleza, cada visita es una experiencia transformadora, pensada para resaltar la esencia y fortalecer la confianza de quienes eligen ponerse en sus manos.
             </p>
           </div>
         </div>
