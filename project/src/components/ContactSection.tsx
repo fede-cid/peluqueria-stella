@@ -30,7 +30,7 @@ export default function ContactSection() {
             <div className="space-y-4">
               <div className="flex items-center">
                 <span className="text-[#D4AF37] mr-3">📍</span>
-                <span>Av. Corrientes 1234, CABA</span>
+                <span >Patricias Mendocinas 1383, M5500 Mendoza</span>
               </div>
               <div className="flex items-center">
                 <span className="text-[#D4AF37] mr-3">📞</span>
@@ -38,7 +38,7 @@ export default function ContactSection() {
               </div>
               <div className="flex items-center">
                 <span className="text-[#D4AF37] mr-3">⏰</span>
-                <span>Mar-Sáb: 10:00 - 20:00</span>
+                <span>Mar-Sáb:10:30 a.m.–12 a.m., 12–6:30 p.m.</span>
               </div>
               <div className="flex space-x-4 mt-6">
                 <a 
