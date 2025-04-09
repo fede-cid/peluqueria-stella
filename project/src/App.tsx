@@ -2,7 +2,8 @@ import React from 'react';
 import { Scissors, Clock, Phone, MapPin, Instagram, Nut as Cut, Palette, Sparkles, Heart, Flower2, Mail as Nail, Brush } from 'lucide-react';
 import { ServiceCard } from './components/ServiceCard';
 import { WhatsAppButton } from './components/WhatsAppButton';
-import { TestimonialCard } from './components/TestimonialCard';
+import { TestimonialsSection } from './components/TestimonialsSection';
+import ContactSection from './components/ContactSection';
 
 
 const services = {
@@ -175,8 +176,9 @@ function App() {
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
           <h2 className="text-5xl md:text-7xl font-serif mb-6">Transformá tu estilo</h2>
           <p className="text-xl md:text-2xl font-light mb-12">con el arte de Stella</p>
+          <p className="text-xl md:text-2xl font-light italic mb-12">"Para mí, el cabello es un accesorio. El cabello es joyería"</p>
           <a 
-            href="#contact"
+           href={"https://wa.me/5492616830109?text=Hola, me gustaría consultar por un turno"}
             className="bg-[#D4AF37] text-black px-8 py-3 rounded hover:bg-[#C5A028] transition-colors"
           >
             Reservá tu turno
@@ -246,83 +248,11 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* Testimonials Section */}
-      <section id="testimonials" className="py-20 px-6 bg-white text-black">
-        <div className="max-w-7xl mx-auto">
-          <h3 className="text-center font-serif text-3xl mb-16">Testimonios</h3>
-          <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <TestimonialCard key={index} {...testimonial} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section id="contact" className="py-20 px-6 bg-black text-white">
-        <div className="max-w-7xl mx-auto">
-          <h3 className="text-center font-serif text-3xl mb-16 text-[#D4AF37]">Contacto</h3>
-          <div className="grid md:grid-cols-2 gap-12">
-            <div>
-              <h4 className="font-serif text-2xl mb-6">Información</h4>
-              <div className="space-y-4">
-                <div className="flex items-center">
-                  <MapPin className="w-5 h-5 text-[#D4AF37] mr-3" />
-                  <span>Av. Corrientes 1234, CABA</span>
-                </div>
-                <div className="flex items-center">
-                  <Phone className="w-5 h-5 text-[#D4AF37] mr-3" />
-                  <span>+54 9 2616 83-0109</span>
-                </div>
-                <div className="flex items-center">
-                  <Clock className="w-5 h-5 text-[#D4AF37] mr-3" />
-                  <span>Mar-Sáb: 10:00 - 20:00</span>
-                </div>
-                <div className="flex space-x-4 mt-6">
-                  <a 
-                    href="https://www.instagram.com/stella_maris_morales/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-[#D4AF37] hover:text-[#C5A028]"
-                  >
-                    <Instagram className="w-6 h-6" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <form className="space-y-6">
-              <div>
-                <label className="block text-sm font-medium mb-2">Nombre</label>
-                <input 
-                  type="text" 
-                  className="w-full px-4 py-2 rounded border border-gray-700 bg-black focus:border-[#D4AF37] focus:outline-none"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">Email</label>
-                <input 
-                  type="email" 
-                  className="w-full px-4 py-2 rounded border border-gray-700 bg-black focus:border-[#D4AF37] focus:outline-none"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">Mensaje</label>
-                <textarea 
-                  className="w-full px-4 py-2 rounded border border-gray-700 bg-black focus:border-[#D4AF37] focus:outline-none"
-                  rows={4}
-                ></textarea>
-              </div>
-              <button 
-                type="submit"
-                className="bg-[#D4AF37] text-black px-8 py-3 rounded hover:bg-[#C5A028] transition-colors"
-              >
-                Enviar Mensaje
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
+     
+     <TestimonialsSection />
+     
+      <ContactSection />
+     
 
       {/* Footer */}
       <footer className="bg-black text-white py-8 px-6 border-t border-gray-800">

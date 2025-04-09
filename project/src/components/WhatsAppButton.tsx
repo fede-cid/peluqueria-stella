@@ -4,7 +4,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 export function WhatsAppButton() {
   const phoneNumber = "5492616830109";
   const message = "Hola, me gustaría consultar por un turno";
-
+ 
   return (
     <a
       href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`}

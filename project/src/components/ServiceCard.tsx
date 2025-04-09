@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ReactNode } from 'react';
+import { WhatsAppConsultButton } from './WhatsAppConsultButton'; // importá el botón nuevo
 
 interface ServiceCardProps {
   icon: ReactNode;
@@ -23,6 +24,7 @@ export function ServiceCard({ icon, title, description, duration, price }: Servi
       <p className="text-gray-600 mb-4 text-center min-h-[48px]">{description}</p>
       <p className="text-gray-500 text-sm text-center mb-2">{duration}</p>
       <p className="text-[#D4AF37] font-semibold text-center">{price}</p>
+     <WhatsAppConsultButton serviceName={title} />
     </motion.div>
   );
 }
