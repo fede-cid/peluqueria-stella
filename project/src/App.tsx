@@ -152,41 +152,37 @@ function App() {
       
       {/* Hero Section */}
       <header className="relative h-screen">
-  {/* Imagen de fondo */}
-  <div 
-    className="absolute inset-0 h-full w-full bg-cover bg-center bg-no-repeat brightness-110"
-    style={{
-      backgroundImage: `url(${Presentacion})`,
-    }}
-  >
-    {/* Overlay más claro para dejar ver la imagen */}
-    <div className="absolute inset-0 bg-black bg-opacity-10"></div>
-  </div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: 'url("https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80")',
+          }}
+        >
+          <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+        </div>
+        
+        <nav className="relative z-10 flex justify-between items-center px-6 py-8 max-w-7xl mx-auto">
+          <h1 className="text-2xl font-serif tracking-wider">Stella Maris Morales</h1>
+          <div className="hidden md:flex space-x-8 font-light">
+            <a href="#about" className="hover:text-[#D4AF37] transition-colors">Sobre Stella</a>
+            <a href="#services" className="hover:text-[#D4AF37] transition-colors">Servicios</a>
+            <a href="#gallery" className="hover:text-[#D4AF37] transition-colors">Galería</a>
+            <a href="#testimonials" className="hover:text-[#D4AF37] transition-colors">Testimonios</a>
+            <a href="#contact" className="hover:text-[#D4AF37] transition-colors">Contacto</a>
+          </div>
+        </nav>
 
-  {/* NAV */}
-  <nav className="relative z-20 flex justify-between items-center px-6 py-8 max-w-7xl mx-auto">
-    <h1 className="text-2xl font-serif tracking-wider">Stella Maris Morales</h1>
-    <div className="hidden md:flex space-x-8 font-light">
-      <a href="#about" className="hover:text-[#D4AF37] transition-colors">Sobre Stella</a>
-      <a href="#services" className="hover:text-[#D4AF37] transition-colors">Servicios</a>
-      <a href="#gallery" className="hover:text-[#D4AF37] transition-colors">Galería</a>
-      <a href="#testimonials" className="hover:text-[#D4AF37] transition-colors">Testimonios</a>
-      <a href="#contact" className="hover:text-[#D4AF37] transition-colors">Contacto</a>
-    </div>
-  </nav>
-
-  {/* Texto principal sobre la imagen */}
-  <div className="relative z-20 flex flex-col items-center justify-center h-full text-center px-4">
-    <h2 className="text-5xl md:text-7xl font-serif mb-6">Transformá tu estilo</h2>
-    <p className="text-xl md:text-2xl font-light mb-12">con el arte de Stella</p>
-    <a 
-      href="#contact"
-      className="bg-[#D4AF37] text-black px-8 py-3 rounded hover:bg-[#C5A028] transition-colors"
-    >
-      Reservá tu turno
-    </a>
-  </div>
-</header>
+        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+          <h2 className="text-5xl md:text-7xl font-serif mb-6">Transformá tu estilo</h2>
+          <p className="text-xl md:text-2xl font-light mb-12">con el arte de Stella</p>
+          <a 
+            href="#contact"
+            className="bg-[#D4AF37] text-black px-8 py-3 rounded hover:bg-[#C5A028] transition-colors"
+          >
+            Reservá tu turno
+          </a>
+        </div>
+      </header>
 
 
       {/* About Section */}
