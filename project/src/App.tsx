@@ -193,7 +193,7 @@ function App() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&q=80" 
+              src="https://github.com/fede-cid/peluqueria-stella/blob/main/project/src/Image/stellaProfile.png?raw=true" 
               alt="Stella Maris Morales"
               className="rounded-lg shadow-2xl"
             />
