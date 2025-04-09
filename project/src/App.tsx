@@ -3,7 +3,7 @@ import { Scissors, Clock, Phone, MapPin, Instagram, Nut as Cut, Palette, Sparkle
 import { ServiceCard } from './components/ServiceCard';
 import { WhatsAppButton } from './components/WhatsAppButton';
 import { TestimonialCard } from './components/TestimonialCard';
-import  Presentacion  from '../image/logo.png';
+
 
 const services = {
   peluqueria: [
