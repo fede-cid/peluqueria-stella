@@ -231,12 +231,12 @@ Reconocida estilista de Mendoza, no es simplemente una peluquera, sino una artis
           <h3 className="text-center font-serif text-3xl mb-16 text-[#D4AF37]">Galería</h3>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              "https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&q=80",
-              "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80",
-              "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80",
-              "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&q=80",
+              "https://github.com/fede-cid/peluqueria-stella/blob/main/project/src/Image/guille.jpg?raw=true",
+              "https://github.com/fede-cid/peluqueria-stella/blob/main/project/src/Image/cabello%202.jpg?raw=true",
+              "https://github.com/fede-cid/peluqueria-stella/blob/main/project/src/Image/cejas.jpg?raw=true",
+              "https://github.com/fede-cid/peluqueria-stella/blob/main/project/src/Image/cabello%203.jpg?raw=true",
               "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80",
-              "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80"
+              "https://github.com/fede-cid/peluqueria-stella/blob/main/project/src/Image/cabello%201.jpg?raw=true"
             ].map((url, index) => (
               <div key={index} className="aspect-square overflow-hidden rounded-lg">
                 <img 
