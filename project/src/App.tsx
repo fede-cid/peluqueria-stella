@@ -137,6 +137,7 @@ function ServiceSection({ title, services }: { title: string, services: any[] })
   return (
     <div className="mb-16">
       <h4 className="text-2xl font-serif mb-8 text-center">{title}</h4>
+      <div className="w-16 h-[2px] bg-[#D4AF37] mx-auto mb-10" />
       <div className="grid md:grid-cols-3 gap-8">
         {services.map((service, index) => (
           <ServiceCard key={index} {...service} />
