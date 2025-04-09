@@ -28,17 +28,22 @@ export default function ContactSection() {
           <div>
             <h4 className="font-serif text-2xl mb-6">Información</h4>
             <div className="space-y-4">
-              <div className="flex items-center">
+               <a
+                href="https://maps.app.goo.gl/u4CGKNk2Uep5wnyh8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center hover:underline"
+              >
                 <span className="text-[#D4AF37] mr-3">📍</span>
                 <span >Patricias Mendocinas 1383, M5500 Mendoza</span>
-              </div>
+              </a>
               <div className="flex items-center">
                 <span className="text-[#D4AF37] mr-3">📞</span>
                 <span>+54 9 2616 83-0109</span>
               </div>
               <div className="flex items-center">
                 <span className="text-[#D4AF37] mr-3">⏰</span>
-                <span>Mar-Sáb:10:30 a.m.–12 a.m., 12–6:30 p.m.</span>
+                <span>Mar-Sáb:10:30 a.m.-12 a.m., 12-6:30 p.m.</span>
               </div>
               <div className="flex space-x-4 mt-6">
                 <a 
