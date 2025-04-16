@@ -13,42 +13,56 @@ const services = {
       title: "Corte de Dama",
       description: "Corte personalizado según el rostro y estilo de cada clienta.",
       duration: "45 minutos",
-      price: "$6000"
+      price: "$7900"
     },
     {
       icon: <Scissors className="w-8 h-8" />,
       title: "Corte de Caballero",
       description: "Corte clásico o moderno con terminaciones de barbería.",
       duration: "30 minutos",
-      price: "$4500"
+      price: "$7900"
     },
     {
       icon: <Sparkles className="w-8 h-8" />,
       title: "Peinado con Ondas",
       description: "Ondas naturales o definidas para cualquier ocasión.",
       duration: "45 minutos",
-      price: "$5000"
+      price: "$19000"
     },
     {
       icon: <Brush className="w-8 h-8" />,
       title: "Brushing",
       description: "Secado con cepillo para un look suave y voluminoso.",
       duration: "40 minutos",
-      price: "$4000"
+      price: "10000"
     },
     {
       icon: <Palette className="w-8 h-8" />,
       title: "Coloración Completa",
       description: "Aplicación de tinte uniforme en toda la cabeza.",
-      duration: "90 minutos",
-      price: "$12000"
+      duration: "120 - 90 minutos",
+      price: "$28000"
     },
     {
       icon: <Heart className="w-8 h-8" />,
       title: "Balayage",
       description: "Técnica de aclarado natural con efecto degradado.",
       duration: "3 horas",
-      price: "$18000"
+      price: "A consultar"
+    },
+    {
+      icon: <Heart className="w-8 h-8" />,
+      title: "Nutrición",
+      description: "Tratamiento que hidrata y repara el cabello, devolviendo brillo y suavidad.",
+      duration: "1 horas",
+      price: "$20000"
+    },
+    {
+      icon: <Heart className="w-8 h-8" />,
+      title: "Alisado",
+      description: "Tratamiento que alisa el cabello, reduciendo el frizz y dejándolo liso por más tiempo.",
+      duration: "2 horas",
+      price: "$25000"
     }
   ],
   manicura_pedicura: [
@@ -72,13 +86,6 @@ const services = {
       description: "Exfoliación, hidratación y masaje relajante.",
       duration: "30 minutos",
       price: "$4000"
-    },
-    {
-      icon: <Nail className="w-8 h-8" />,
-      title: "Pedicura Completa",
-      description: "Limpieza profunda, uñas y esmaltado.",
-      duration: "60 minutos",
-      price: "$5500"
     }
   ],
   cejas_pestanas: [
@@ -95,13 +102,6 @@ const services = {
       description: "Coloración con henna o tintura para realzar la mirada.",
       duration: "30 minutos",
       price: "$3500"
-    },
-    {
-      icon: <Sparkles className="w-8 h-8" />,
-      title: "Lifting de Pestañas",
-      description: "Curvado natural que realza las pestañas sin extensiones.",
-      duration: "60 minutos",
-      price: "$6000"
     }
   ],
   maquillaje: [
@@ -109,8 +109,8 @@ const services = {
       icon: <Brush className="w-8 h-8" />,
       title: "Maquillaje Social",
       description: "Look profesional para eventos o salidas.",
-      duration: "60 minutos",
-      price: "$10000"
+      duration: "90 - 120 minutos",
+      price: "a consultar"
     }
   ]
 };
